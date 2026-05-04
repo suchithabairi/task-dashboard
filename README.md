@@ -15,3 +15,6 @@ A modern and interactive task management dashboard built using HTML, CSS, and Ja
 - CSS
 - JavaScript
 - Chart.js
+
+## Screenshot
+![App Screenshot](screenshot.png)
