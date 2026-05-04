@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Task Dashboard</h1>
+
+    <div class="input-box">
+        <input type="text" id="taskInput" placeholder="Enter task...">
+        <input type="date" id="deadline">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="dashboard">
+
+        <div id="taskList" class="tasks"></div>
+
+        <div class="stats">
+            <h3>Stats</h3>
+            <p>Total: <span id="total">0</span></p>
+            <p>Completed: <span id="completed">0</span></p>
+            <p>Pending: <span id="pending">0</span></p>
+
+            <canvas id="chart"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
